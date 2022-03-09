@@ -1,6 +1,6 @@
 writeCode
 
-1. Create a basic express server
+1. Create a basic express server.
 
 - Add cookie-parser middleware and set a cookie when requested on `/about` route by creating a custom middleware.
 - add cookie with key as `username` and value as your username.
@@ -8,7 +8,7 @@ writeCode
 For example:-
 
 ```js
-res.cookie("username", "suraj");
+res.cookie('username', 'suraj');
 ```
 
 2. Fetch all cookies from request in next middleware.
