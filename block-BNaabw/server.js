@@ -9,7 +9,7 @@ var app = express();
 //middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-// app.use(static(__dirname + '/public'));
+app.use(static(__dirname + '/public'));
 app.use(logger('dev'));
 
 //routes
